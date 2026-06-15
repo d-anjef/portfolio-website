@@ -1,0 +1,108 @@
+import type { Experience } from "@/types";
+
+export const experienceData: Experience[] = [
+  {
+    id: 1,
+    jobTitle: "Managing Website and Social Media",
+    company: "Joven Fashion",
+    duration: "Jan 2026 - Present",
+    status: "Currently Working",
+    description:
+      "Managing ecommerce website and creating engaging posts for social media platforms",
+    responsibilities: [
+      "Manage and maintain ecommerce website",
+      "Create engaging social media content",
+      "Monitor website performance",
+      "Handle customer interactions",
+    ],
+    technologies: [
+      "E-commerce",
+      "Social Media",
+      "Website Management",
+      "Content Creation",
+    ],
+    icon: "💼",
+  },
+  {
+    id: 2,
+    jobTitle: "Data Annotation Intern",
+    company: "Crowdai Projects",
+    duration: "June 2024 - Sep 2024",
+    status: "Internship",
+    description:
+      "Entered and cleaned records from scanned forms and handwritten documents",
+    responsibilities: [
+      "Data entry and verification",
+      "Document scanning and processing",
+      "Record cleaning and validation",
+      "Excel and Google Sheets management",
+    ],
+    technologies: ["Excel", "Google Sheets", "Data Entry", "Nepali Language"],
+    icon: "📊",
+    location: "Remote",
+  },
+  {
+    id: 3,
+    jobTitle: "Social Media Manager",
+    company: "Matshya Narayan Recreational Center",
+    duration: "Jan 2022 - July 2024",
+    status: "Full-time",
+    description: "Managed social media presence across multiple platforms",
+    responsibilities: [
+      "Managed Facebook, Instagram, and TikTok accounts",
+      "Created and scheduled posts",
+      "Engaged with followers",
+      "Developed social media strategy",
+    ],
+    technologies: [
+      "Facebook",
+      "Instagram",
+      "TikTok",
+      "Content Strategy",
+      "Social Media Marketing",
+    ],
+    icon: "📱",
+  },
+  {
+    id: 4,
+    jobTitle: "Photographer & Videographer",
+    company: "Matshya Narayan Recreational Center",
+    duration: "Jan 2022 - July 2024",
+    status: "Full-time",
+    description: "Captured photos and created videos for the recreational center",
+    responsibilities: [
+      "Event photography and videography",
+      "Video editing and production",
+      "Photo curation and management",
+      "Content creation for marketing",
+    ],
+    technologies: [
+      "Photography",
+      "Videography",
+      "Video Editing",
+      "Content Creation",
+    ],
+    icon: "📹",
+  },
+  {
+    id: 5,
+    jobTitle: "Photographer",
+    company: "Kuhiro Dada Agro Rest House & Heavenly Village Resort",
+    duration: "Feb 2022 - April 2022",
+    status: "Part-time",
+    description: "Photographed guests and managed social media content",
+    responsibilities: [
+      "Guest photography",
+      "Photo editing",
+      "Facebook page management",
+      "Content posting and scheduling",
+    ],
+    technologies: [
+      "Photography",
+      "Photo Editing",
+      "Social Media",
+      "Facebook Management",
+    ],
+    icon: "📸",
+  },
+];
