@@ -280,7 +280,7 @@ function ProjectCard({
 
       {/* Body */}
       <div className="flex-1 px-6 pb-3 flex flex-col gap-3">
-        <h3 className="text-white text-xl md:text-2xl font-bold leading-tight">
+        <h3 className="text-white text-xl md:text-2xl font-bold font-heading leading-tight">
           {project.title}
         </h3>
         <p className="text-white/65 text-sm leading-relaxed line-clamp-3">

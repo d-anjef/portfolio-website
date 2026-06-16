@@ -38,7 +38,7 @@ export default function Profile({ isOpen, onClose }: ModalProps) {
         {/* Right: Bio */}
         <div className="flex-1 overflow-y-auto p-6 lg:p-10 flex flex-col justify-center scrollbar-dark bg-[#1e1e1e]">
           <div className="max-w-2xl mx-auto w-full">
-            {/* Intro */}
+            {/* Intro badge */}
             <div className="text-[#00ffa3] font-mono text-base md:text-xl tracking-wider mb-3">
               <TextType
                 text="Let me introduce myself."
@@ -48,7 +48,7 @@ export default function Profile({ isOpen, onClose }: ModalProps) {
             </div>
 
             {/* Main heading */}
-            <h1 className="text-white text-2xl md:text-3xl font-extrabold mb-4 leading-tight">
+            <h1 className="text-white text-2xl md:text-3xl font-extrabold font-display mb-4 leading-tight tracking-tight">
               <TextType
                 text="Hey! It's me Anjef Dangol."
                 typingSpeed={40}
@@ -58,7 +58,7 @@ export default function Profile({ isOpen, onClose }: ModalProps) {
             </h1>
 
             {/* Bio */}
-            <div className="text-white/60 text-sm md:text-base leading-relaxed mb-6">
+            <div className="text-white/60 text-sm md:text-base leading-relaxed mb-6 font-body">
               <TextType
                 text={bioText}
                 typingSpeed={15}

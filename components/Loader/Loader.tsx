@@ -33,7 +33,7 @@ export default function Loader({ onComplete }: LoaderProps) {
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1024 576"
-            className="w-[60vw] max-w-[600px] h-auto"
+            className="w-[90vw] max-w-[1200px] h-auto"
             initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.4 }}
@@ -166,8 +166,8 @@ export default function Loader({ onComplete }: LoaderProps) {
               initial={{ pathLength: 0, fillOpacity: 0 }}
               animate={{ pathLength: 1, fillOpacity: 1 }}
               transition={{
-                pathLength: { duration: 1.8, ease: "easeInOut" },
-                fillOpacity: { duration: 0.6, delay: 1.6 },
+                pathLength: { duration: 2.2, ease: "easeInOut" },
+                fillOpacity: { duration: 0.8, delay: 2.0 },
               }}
             />
           </motion.svg>
