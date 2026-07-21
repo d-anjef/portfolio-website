@@ -3,10 +3,32 @@ import type { Experience } from "@/types";
 export const experienceData: Experience[] = [
   {
     id: 1,
+    jobTitle: "FrontEnd Developer",
+    company: "Intersect Info Developers ",
+    duration: "Present",
+    status: "Currently Working",
+    description:
+      "Building websites ",
+    responsibilities: [
+      "Manage and maintain ecommerce website",
+      "Create engaging social media content",
+      "Monitor website performance",
+      "Handle customer interactions",
+    ],
+    technologies: [
+      "E-commerce",
+      "Social Media",
+      "Website Management",
+      "Content Creation",
+    ],
+    icon: "💼",
+  },
+  {
+    id: 1,
     jobTitle: "Managing Website and Social Media",
     company: "Joven Fashion",
-    duration: "Jan 2026 - Present",
-    status: "Currently Working",
+    duration: "Jan 2026 - June 2026",
+    status: "Full-time",
     description:
       "Managing ecommerce website and creating engaging posts for social media platforms",
     responsibilities: [

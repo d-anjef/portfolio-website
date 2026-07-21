@@ -62,7 +62,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: {
-    default: "Anjef Dangol — Frontend Developer",
+    default: "Anjef Dangol - Frontend Developer",
     template: "%s | Anjef Dangol",
   },
   description:
@@ -81,8 +81,8 @@ export const metadata: Metadata = {
   creator: "Anjef Dangol",
   metadataBase: new URL("https://www.anjef.com.np"),
   openGraph: {
-    title: "Anjef Dangol — Frontend Developer",
-    description: "Frontend Developer Portfolio — React, Next.js, TypeScript",
+    title: "Anjef Dangol - Frontend Developer",
+    description: "Frontend Developer Portfolio - React, Next.js, TypeScript",
     url: "https://www.anjef.com.np",
     siteName: "Anjef Dangol",
     locale: "en_US",
@@ -90,7 +90,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Anjef Dangol — Frontend Developer",
+    title: "Anjef Dangol - Frontend Developer",
     description: "Frontend Developer Portfolio",
     creator: "@_anjef",
   },
